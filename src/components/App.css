@@ -1,0 +1,118 @@
+ @font-face {
+    font-family: Roboto-Regular;
+    src: url(/public/Roboto-Regular.ttf);
+ }
+ *{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto-Regular;
+    font-weight: 400;
+ }
+ .App{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+    padding-left: 30px;
+    height: 95vh;
+    padding-right: 30px;
+
+ }
+ .opp{
+    background-color: orange;
+ }
+ .num{
+    background-color: grey;
+    color:white;
+ }
+ .calculator{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid grey;
+    
+    max-width: 400px;
+    min-width: 300px;
+    border-radius: 5px;
+    background-color: rgb(22, 22, 22);
+
+    padding: 20px;
+    padding-left: 20px;
+    padding-right: 30px;
+    padding-top: 30px;
+ }
+ .up{
+    background-color: rgb(162, 255, 0);
+ }
+ .display{
+    width: 100%;
+
+ }
+ input{
+    width: 100%;
+    font-size: 3em;
+    color: orange;
+    border-radius: 5px;
+    background-color: rgb(46, 45, 45);
+    padding:5px;
+    border: none;
+    box-shadow: .5px .5px 5px rgba(255, 255, 255, 0.35);
+ }
+ .upfunction{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+ }
+ .btn{
+    font-size: 2em;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    margin-left: 12px;
+
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+ }
+ 
+ .btn:active{
+    color: red;
+    opacity: .5;
+    
+ }
+ .btn2{
+    width: 130px;
+    background-color: red;
+    color: white;
+ }
+ .name{
+    margin-top: 20px;
+    font-weight: 800;
+    font-size: 2em;
+    color: rgb(46, 45, 45);
+ }
+ .footer{
+   margin-top: 10px;
+ }
+ .name{
+    font-size: 1.2em;
+ }
+ @media (max-width:400px){
+    .btn{
+        width: 40px;
+        height: 40px;
+    }
+    .btn2{
+        width: 105px;
+    }
+ }
